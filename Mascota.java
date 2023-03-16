@@ -19,5 +19,19 @@ public class Mascota
         
     }
 
+    public String getNombre(){
+        return nombre;
+    }
     
+    public String getTipoDeMascota(){
+        return tipoDeMascota;
+    }
+    
+    public void setNombre(String nombreMascota){
+        nombreMascota = nombre;
+    }
+    
+    public void setTipoDeMascota(String tipoMascota){
+        tipoMascota = tipoDeMascota;
+    }
 }
