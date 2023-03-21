@@ -15,4 +15,17 @@ public class Personaje
         profesion = profesionNombre;
         nombre = nombrePersonaje;
     }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public String getProfesion(){
+        return profesion;
+    }
+    
+    public Mascota getMascota(){
+        return mascota;
+    }
+    
 }
