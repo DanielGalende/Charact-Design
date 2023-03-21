@@ -10,5 +10,9 @@ public class Personaje
     private String nombre;
     private String profesion;
     private Mascota mascota;
-   
+    
+    public Personaje(String nombrePersonaje, String profesionNombre){
+        profesion = profesionNombre;
+        nombre = nombrePersonaje;
+    }
 }
