@@ -38,7 +38,7 @@ public class Personaje
         profesion = tipoDeProfesion ;
     }
     
-    public void setmascota(Mascota tipoDeMascota){
+    public void setMascota(Mascota tipoDeMascota){
         mascota = tipoDeMascota;
     }
     
