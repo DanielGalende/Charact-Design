@@ -14,8 +14,10 @@ public class Mascota
     /**
      * Constructor for objects of class Mascota
      */
-    public Mascota()
+    public Mascota(String Nombre, String TipoDeMascota)
     {
+        Nombre = nombre;
+        TipoDeMascota = tipoDeMascota;
         
     }
 
@@ -34,4 +36,9 @@ public class Mascota
     public void setTipoDeMascota(String tipoMascota){
         tipoMascota = tipoDeMascota;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Nombre de la mascota: " + nombre + "Tipo de Mascota: " + tipoDeMascota);  
+    }
 }
+
