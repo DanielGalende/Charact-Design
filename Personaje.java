@@ -43,7 +43,7 @@ public class Personaje
     }
     
     public void imprimirDetalles(){
-        System.out.println("Nombre del Personaje: " + nombre + "A lo que se dedica: " + profesion + "Mascota del personaje" + mascota);
+        System.out.println("Nombre del Personaje: " + nombre + " A lo que se dedica: " + profesion + " Mascota del personaje " + mascota.getNombre());
     }
 
 }
