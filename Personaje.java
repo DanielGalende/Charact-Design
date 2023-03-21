@@ -27,5 +27,20 @@ public class Personaje
     public Mascota getMascota(){
         return mascota;
     }
+
+    public void setnombreDelPersonaje(String nombrePersonaje)
+    {
+        nombre = nombrePersonaje  ;
+    }
     
+    public void setNombreProfesion(String tipoDeProfesion)
+    {
+        profesion = tipoDeProfesion ;
+    }
+    
+    public void setmascota(Mascota tipoDeMascota){
+        mascota = tipoDeMascota;
+    }
+    
+
 }
