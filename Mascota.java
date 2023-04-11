@@ -14,10 +14,10 @@ public class Mascota
     /**
      * Constructor for objects of class Mascota
      */
-    public Mascota(String Nombre, String TipoDeMascota)
+    public Mascota(String nombre, String tipoDeMascota)
     {
-        Nombre = nombre;
-        TipoDeMascota = tipoDeMascota;
+         this.nombre = nombre ;
+         this.tipoDeMascota = tipoDeMascota ;
         
     }
 
